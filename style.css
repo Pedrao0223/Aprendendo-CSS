@@ -1,13 +1,30 @@
-body{ background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    text-align: center; 
-    margin: 0px 10px 10px 10px;
-
-
-
-
+* {
+    background-color: gray;
 }
-    
 
+h1 {
+    color: white;
+    background-color: blueviolet; 
+    margin: auto;
+    padding: 50px; 
+    border: 10px yellow; 
+    border-style: solid; 
+    border-radius: 10px 100px 150px 200px; 
+    text-align: center; 
+    width: 300px; 
+}  
+
+#conteudo{
+    background-color: green; 
+    color: beige; 
+    width: 100%;
+
+
+} 
+
+.texto{
+    width: 80%;
+    margin: auto; 
+    background-color: darkorange;
+}
 
