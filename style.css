@@ -1,30 +1,74 @@
 * {
-    background-color: gray;
+    background-color: rgb(172, 101, 101);
 }
 
 h1 {
     color: white;
-    background-color: blueviolet; 
+    background-color: rgb(219, 190, 25); 
     margin: auto;
     padding: 50px; 
     border: 10px yellow; 
     border-style: solid; 
     border-radius: 10px 100px 150px 200px; 
     text-align: center; 
-    width: 300px; 
+    width: 300px;  
 }  
 
-#conteudo{
-    background-color: green; 
+#conteudo{ 
     color: beige; 
     width: 100%;
 
 
 } 
 
-.texto{
+.texto{ 
+    background-color: rgb(223, 153, 25);
     width: 80%;
     margin: auto; 
-    background-color: darkorange;
+   
+    
 }
 
+#area-login{ 
+    margin: auto; 
+    width: 300px; 
+    border: 2px solid whitesmoke; 
+    padding: 20px; 
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px;
+
+
+} 
+
+button{ 
+    margin-top: 40px; 
+    background-color: rgb(190, 221, 12);
+    color: white; 
+    padding: 20px; 
+    border-radius: 15px; 
+    border: 1px dashed #fff; 
+    font-size: 30px;
+
+} 
+
+input{ 
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+} 
+
+input[type="email"]{
+    background-color: aqua;
+} 
+
+#usuario{
+    background-color: coral;
+} 
+
+button:hover{
+    background-color: black; 
+    color: purple; 
+    font-size: 40px;
+}
